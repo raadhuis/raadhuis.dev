@@ -107,7 +107,7 @@ nginx:
                 - index.html
                 - index.htm
                 - index.php
-            client_max_body_size: 1m
+            client_max_body_size: 2m
             ssl: '0'
             ssl_cert: ''
             ssl_key: ''
