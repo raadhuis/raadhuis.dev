@@ -330,7 +330,7 @@ mysql:
             sql: ''
     grants:
         mysqlng_kosbv55mv6jh:
-            user: dbuser
+            user: raadhuis
             table: '*.*'
             privileges:
                 - ALL
