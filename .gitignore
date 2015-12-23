@@ -1,3 +1,4 @@
 .vagrant
 public/*
 !public/.keep
+!public/info.php
