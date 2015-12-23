@@ -3,7 +3,7 @@ vagrantfile:
     vm:
         box: puphpet/centos65-x64
         box_url: puphpet/centos65-x64
-        hostname: dev.raadhuis.com
+        hostname: raadhuis.dev
         memory: '512'
         cpus: '1'
         chosen_provider: virtualbox
@@ -98,10 +98,10 @@ nginx:
     upstreams: {  }
     vhosts:
         nxv_e7s102f199hq:
-            server_name: awesome.dev
+            server_name: raadhuis.dev
             server_aliases:
-                - www.awesome.dev
-            www_root: /var/www/awesome
+                - www.raadhuis.dev
+            www_root: /var/www
             listen_port: '80'
             index_files:
                 - index.html
@@ -163,10 +163,10 @@ apache:
         - rewrite
     vhosts:
         av_uq88jsnd2ke9:
-            servername: awesome.dev
+            servername: raadhuis.dev
             serveraliases:
-                - www.awesome.dev
-            docroot: /var/www/awesome
+                - www.raadhuis.dev
+            docroot: /var/www
             port: '80'
             setenv:
                 - 'APP_ENV dev'
@@ -182,7 +182,7 @@ apache:
             ssl_cipher: ''
             directories:
                 avd_n2acsa86g8xe:
-                    path: /var/www/awesome
+                    path: /var/www
                     options:
                         - Indexes
                         - FollowSymlinks
@@ -207,7 +207,6 @@ php:
         php:
             - cli
             - intl
-            - phpunit
         pear: {  }
         pecl: {  }
     ini:
