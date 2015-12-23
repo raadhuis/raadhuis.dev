@@ -208,6 +208,8 @@ php:
             - cli
             - intl
             - xml
+            - mbstring
+            - mcrypt
         pear: {  }
         pecl: {  }
     ini:
