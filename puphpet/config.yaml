@@ -207,6 +207,7 @@ php:
         php:
             - cli
             - intl
+            - xml
         pear: {  }
         pecl: {  }
     ini:
