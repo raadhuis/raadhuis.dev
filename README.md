@@ -9,3 +9,11 @@ It runs on CentOS and has exactly the same specs as our staging and production e
 ## How to use it
 * Clone this repository
 * Use vagrant up
+
+## Default settings
+* Ip-address: 192.168.56.101
+* Hostname: raadhuis.dev
+
+* MySQL DB: raadhuis
+* MySQL user: raadhuis
+* MySQL pass: raadhuis
